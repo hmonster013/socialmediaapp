@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/it_openPost"
+        android:title="Mở bài viết"/>
+    <item
+        android:id="@+id/it_editPost"
+        android:title="Chỉnh sửa bài viết"/>
+
+    <item
+        android:id="@+id/it_deletePost"
+        android:title="Xóa bài viết"/>
+
+</menu>

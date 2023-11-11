@@ -1,0 +1,12 @@
++ Máy ảo không đăng nhập được gg
++ Sau khi cấp quyền k xử lý premissionResult
++ Xung đột thư viện
++ Thiếu kiểm tra xem máy người dùng có internet không
+
+- Cần thêm
+12 Trạng thái nhận tin nhắn, xem tin nhắn
+13 Trạng thái hoạt động trong đoạn chat
+14 Trạng thái đang gõ văn bản trong đoạn chat
+16 Thông báo tin nhắn
++ Thêm like, share
++ Thêm sửa xóa comment

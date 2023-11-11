@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+    <LinearLayout
+        android:id="@+id/lnl_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_pTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tiêu đề"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:background="@drawable/editextstyle"/>
+
+        <ImageView
+            android:id="@+id/iv_pImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:background="#673AB7"/>
+
+        <EditText
+            android:id="@+id/edt_pDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nội dung"
+            android:padding="10dp"
+            android:minHeight="120dp"
+            android:singleLine="true"
+            android:gravity="start"
+            android:inputType="textCapSentences|textMultiLine"
+            android:background="@drawable/editextstyle"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_pUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng bài"
+        android:layout_below="@id/lnl_body"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

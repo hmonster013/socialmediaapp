@@ -1,0 +1,38 @@
+Ứng dụng Mạng xã hội mini
+1.	Xác định Yêu cầu và Chức năng:
+•	Xác định mục tiêu và mục đích của ứng dụng.
+•	Các chức năng của ứng dụng:
+	+ Trang chủ chứa bài đăng của bạn bè + Story
+	+ Chức năng nhắn tin
+	+ Chức năng kết bạn
+	+ Chức năng đăng bài
+	+ Thông báo
+	+ Xem trang cá nhân
+	+ Chức năng lướt tiktok
+	+ Chức năng đăng nhập + đăng ký
+2.	Thiết Kế Giao Diện Người Dùng:
+•	Vẽ ra các mockup hoặc wireframe cho giao diện người dùng của ứng dụng, bao gồm trang chủ, trang cá nhân, trang tin tức, v.v.
+•	Thiết kế các màn hình sử dụng công cụ thiết kế hoặc trình tự.
+3.	Xây Dựng Giao Diện Người Dùng:
+•	Sử dụng XML để tạo các layout và màn hình giao diện dựa trên thiết kế đã xác định.
+•	Tích hợp các phần tử như TextView, EditText, ImageView, RecyclerView, v.v.
+4.	Xây Dựng Cơ Sở Dữ Liệu:
++ Xây dựng một cơ sở dữ liệu demo để nhắn tin từ 2 đối tượng ở 2 máy khác nhau
+5.	Triển Khai Chức Năng Chính:
+•	Xây dựng chức năng đăng nhập, đăng ký người dùng.
+•	Cho phép người dùng đăng bài viết, thêm hình ảnh và chia sẻ bài viết.
+6.	Triển Khai Chức Năng Tương Tác:
+•	Xây dựng chức năng like, comment, theo dõi người dùng khác.
+•	Hiển thị thông báo cho người dùng khi có tương tác mới.
+7.	Tối Ưu Hóa Hiệu Năng:
+•	Đảm bảo ứng dụng chạy mượt mà và có thời gian phản hồi nhanh.
+•	Sử dụng các kỹ thuật tối ưu hóa, cache dữ liệu, v.v.
+8.	Kiểm Thử và Sửa Lỗi:
+•	Tiến hành kiểm thử ứng dụng để xác định và sửa lỗi.
+•	Đảm bảo tính ổn định và bảo mật của ứng dụng.
+9.	Triển Khai và Phân Phối:
+•	Triển khai ứng dụng lên Google Play Store hoặc các nền tảng phân phối ứng dụng khác.
+10.	Theo Dõi và Phát Triển Tiếp:
+•	Theo dõi hiệu suất của ứng dụng và thu thập phản hồi từ người dùng.
+•	Cập nhật và phát triển tiếp ứng dụng dựa trên phản hồi và yêu cầu từ người dùng.
+
